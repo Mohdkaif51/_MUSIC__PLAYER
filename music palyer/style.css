@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1db954, #191414);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player {
+    background-color: #1c1e24;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.song-info {
+    margin-bottom: 20px;
+}
+
+#song-title {
+    font-size: 1.5em;
+}
+
+#album-cover {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.controls button:active {
+    transform: scale(0.9);
+}
+
+.controls button:hover {
+    background-color: #1ed760;
+    transform: scale(1.1);
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #404040;
+    height: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+#progress {
+    background-color: #1db954;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#volume-control {
+    width: 100px;
+    margin-left: 10px;
+}
